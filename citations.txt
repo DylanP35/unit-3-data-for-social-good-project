@@ -1,1 +1,9 @@
-Hello
+Who Helped Me:
+  Mr. Aiello
+
+What I asked:
+  How can I make a method that creates a new 1D array containing values that address a question?
+  
+What response I received:
+  You can create a method that returns a filtered 1D array.
+  For example, the method can output a 1D array that is filtered to only players on a specific team.
