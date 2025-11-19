@@ -25,9 +25,11 @@ Who were some of the players on the dodgers in 2025?
 
 
 Dataset: https://docs.google.com/spreadsheets/d/1Vnw5WmHkBmqa2D22sBrKDE1thCPwGYSKKMh57jrbURk/edit?gid=0#gid=0
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+- **Name** (String) - name of the player 
+- **Position** (String) - Position the player plays 
+- **Team** (String) - The team of the player 
+- **battingAverage** (double) - The players batting average 
+- **homeRuns** (int) - The number of home runs the player hits.
 
 ## UML Diagram 
 
@@ -38,3 +40,5 @@ Put an image of your UML Diagram here. Upload the image of your UML Diagram to y
 ## Description 
 
 Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+
+This project uses mlb data from the official mlb website to find statistics about hitters. The user wanted to know who hit the most home runs in the mlb in 2025 and who had the highest batting average in the mlb in 2025. Our project will show the top 125 hitters and how many home runs they hit and what their batting average was. When you run the app, it displays the top 125 hitters and the team, position, home run count, and battering average they have. It also displays who has the most home runs in the mlb in 2025 and who had the highest batting average in the mlb in 2025. The project makes multiple 1D arrays to list the players, teams, homeruns, and positions.
